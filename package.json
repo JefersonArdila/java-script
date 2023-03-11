@@ -1,0 +1,26 @@
+{
+  "name": "java-script",
+  "version": "1.0.0",
+  "description": "trabajo api",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "node --watch ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JefersonArdila/java-script.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "jeferson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JefersonArdila/java-script/issues"
+  },
+  "homepage": "https://github.com/JefersonArdila/java-script#readme",
+  "dependencies": {
+    "fetch": "^1.1.0",
+    "fs-extra": "^11.1.0"
+  }
+}
