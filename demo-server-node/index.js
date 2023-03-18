@@ -16,7 +16,7 @@ const server = http.createServer((req,res)=>{
     console.log("URL es", url );
 
     if(url === "/other"){
-        writeHtmlResponse(res, "<p> Esta es otra ruta </p>");
+        writeHtmlResponse(res, "<p> Esta es otra ruta. </p>");
     }else{
         writeHtmlResponse(res, "<p> codigo HTML </p>");
     }
